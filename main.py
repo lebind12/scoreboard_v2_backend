@@ -9,7 +9,8 @@ app = FastAPI()
 
 origins = [
     "*",
-    "http://localhost:3000"
+    "http://localhost:3000",
+    "https://scoreboard-v2-nine.vercel.app/"
 ]
 
 app.add_middleware(

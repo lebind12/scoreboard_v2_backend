@@ -5,7 +5,7 @@ from domain.player import player_router
 from domain.status import status_router
 
 
-app = FastAPI()
+app = FastAPI(docs_url=None, redoc_url=None)
 
 origins = [
     "*",

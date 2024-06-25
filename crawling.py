@@ -94,7 +94,7 @@ from urllib import parse
 #     # print(res)    
 
 # RADAR_URL = "https://api.sportradar.com/soccer/trial/v4/ko/competitors/"
-# RADAR_BACK_URL = "/profile.json?api_key=gKNDjFaoAZ8ga9xZDXZD93JMfLZA5hvW8fzFIly5"
+# RADAR_BACK_URL = "/profile.json?api_key=IJrRAGrXzo8KGRWcSPL9F7gwpj4sJFpP9Howllis"
 # competitor_id = ['sr:competitor:4711','sr:competitor:4695', 'sr:competitor:4699', 'sr:competitor:4709',
 #                  'sr:competitor:4707', 'sr:competitor:4698', 'sr:competitor:4715', 'sr:competitor:4690',
 #                  'sr:competitor:4713', 'sr:competitor:4484', 'sr:competitor:4476', 'sr:competitor:6355',

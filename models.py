@@ -20,6 +20,7 @@ class Player(Base):
     korname = Column(String, nullable=False)
     sofascoredid = Column(Integer, nullable=False)
     familyname = Column(String, nullable=False)
+    nation_code = Column(String, nullable=True)
     
 class Nation(Base):
     __tablename__ = 'nation'

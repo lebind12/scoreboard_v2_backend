@@ -12,7 +12,11 @@ class Match(Base):
     away = Column(String, nullable=False)
     homeid = Column(Integer, nullable=False)
     awayid = Column(Integer, nullable=False)
-    starttime = Column(DateTime, nullable=False)
+    starttime = Column(String, nullable=False)
+    homenamecode = Column(String, nullable=False)
+    awaynamecode = Column(String, nullable=False)
+    matchstadium = Column(String, nullable=False)
+    
     
 class Player(Base):
     __tablename__ = 'player'
